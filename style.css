@@ -1,67 +1,131 @@
 body {
-    background: linear-gradient(90deg, rgba(191, 174, 217, 1) 0%, rgba(0, 255, 203, 1) 100%);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #FDE5D4;
+    text-align: center;
     margin: 0;
     padding: 0;
-    color: azure;
+    
 }
 
-h1{
-    color:darkslateblue;
-    padding: 10px;
+body.home{
+    background-image: url(slike/pozadina01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
-h2, h3, h4{
-    color:darkslateblue;
-    padding: 10px;
-    font-size: 18px;
+nav {
+    width: 100%;
+    background-color:#445D48;
+    padding: 20px 0;
 }
 
-ol, ul {
-    color: darkslateblue;
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
 }
 
-a {
-    color: darkslateblue;
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block; 
+    padding: 15px 30px; 
+    border: 2px solid #445D48; 
+    border-radius: 5px;
+    text-align: center;
     text-decoration: none;
+    font-size: 1.2em; 
+    font-weight: bold;
+    color: #FDE5D4;
+    background-color: #445D48;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.current {
+    background-color: #FDE5D4;
+    color: #445D48;
+    border-color: #FDE5D4;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0 10px;
+    font-weight: 400;
+    font-size: 3.5em;
+    text-align: left;
+    border-bottom: 3px solid #445D48;
+    padding: 0 0 10px;
+    color: #5E3023;
+    
+}
+
+p.h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #5E3023;
+    padding: 5px;
+    text-align: left;
+    
+}
+
+h2, h3, h4, h5, h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #5E3023;
+    padding: 5px;
+    text-align: center;
 }
 
 p {
-    color: darkslateblue;
-    font-size: 18px;
-    line-height: 18px;
-    width: 600px;
-    padding: 20px;
-    background-color: antiquewhite;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+    color: #001524;
+    padding: 10px;
+    width: 40%;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    margin: 10px 0;
-    border: 2px solid azure;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-    display: block;
-    padding: 20px;
+img{
+    border: 3px solid #445D48;
+    border-radius: 10px;
 }
 
-video, iframe, audio {
-    margin-top: 20px;
+p.h7, p.h8, p.h9, p.h10{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
-    max-width: 560px;
-    border: 2px solid azure;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-    display: block;
-    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    color: #5E3023;
+    padding: 5px;
 }
 
-video, audio {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 20px;
+p.p1,p.p2,p.p3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    text-align: left	;
+    font-weight: 400;
+    font-size: 40px;
+    color: #5E3023;
+    padding: 5px;
+    border-bottom: 2px solid #445D48;
 }
 
-a:hover {
-    text-decoration: underline;
+a{
+    font-size: 23px ;
+    color: #445D48;
 }
+
+
+
